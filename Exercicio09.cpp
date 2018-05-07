@@ -6,16 +6,16 @@
 
 int main ()
 {
-	int numero   = 0,
+	int     numero   = 0,
 		contador1 = 0,
 		contador2 = 0;
 		
-	char continuar;
+
 		
 	setlocale(LC_ALL,"");
 	
 	{
-		system("cls");
+
 
 		printf("Digite a quantidade de asteriscos: ");
 		scanf("%d",&numero);
@@ -29,9 +29,7 @@ int main ()
 			printf("\n");
 		}
 
-		continuar = getch(); 
 	}
-	system("cls");
 	system("pause");
 	return 0;
 }
