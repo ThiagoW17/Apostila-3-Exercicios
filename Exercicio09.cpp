@@ -9,10 +9,6 @@ int main ()
 	int     numero   = 0,
 		contador1 = 0,
 		contador2 = 0;
-		
-
-		
-	setlocale(LC_ALL,"");
 	
 	{
 
