@@ -1,7 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <locale.h>
-#include <conio.h>
 #include <math.h>
 
 int main ()
@@ -11,10 +9,6 @@ int main ()
 		contador = 0,
 		linha    = 1,
 		mostrados = 0;
-		
-	char continuar;
-		
-	setlocale(LC_ALL,"");
 
 	{
 		system("cls");
@@ -22,7 +16,7 @@ int main ()
 		mostrados = 0;
 
 
-		printf("Digite um número: ");
+		printf("Digite um numero: ");
 		scanf("%d",&digitado);
 		
 		for(numero=1;numero<=digitado;numero++)
@@ -37,9 +31,7 @@ int main ()
 				}
 		}
 
-		continuar = getch(); 
 	}
-	system("cls");
 	system("pause");
 	return 0;
 }
