@@ -11,7 +11,6 @@ int main ()
 		mostrados = 0;
 
 	{
-		system("cls");
 		linha = 1;
 		mostrados = 0;
 
